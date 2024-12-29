@@ -164,7 +164,6 @@
   inline-size: 130px;
 }
 
-.button:focus-visible,
 .button:focus-visible {
   box-shadow: 2px 2px var(--text-color, #000);
   outline: none;
@@ -261,9 +260,5 @@
 
   .save__icon-button {
     width: 28px;
-  }
-
-  .save__button {
-    flex-direction: column;
   }
 }
