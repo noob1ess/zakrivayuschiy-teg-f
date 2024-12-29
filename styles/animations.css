@@ -57,7 +57,7 @@
 
 .like-icon:hover .main-body {
   fill: var(--text-color, #000);
-  transition: fill 0.3s 0.05s linear;
+  transition: fill 0.3s 0.03s linear;
 }
 
 .like-icon:hover .core {
