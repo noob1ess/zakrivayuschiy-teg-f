@@ -132,8 +132,8 @@
   filter: blur(3px);
 }
 
-.filter-grayscale-sepia {
-  filter: grayscale(50%) sepia(50%);
+.filter-brightness-sepia {
+  filter: brightness(150%) sepia(50%);
 }
 
 .card__text {
