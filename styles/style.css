@@ -18,7 +18,7 @@
   background-size: cover;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wght" var(--main-text-weight, 400);
+  font-variation-settings: 'wght' var(--main-text-weight, 400);
 }
 
 .cover {
@@ -62,7 +62,7 @@
   margin-block: 5px 4px;
   font-size: var(--main-title-size);
   line-height: 22px;
-  font-variation-settings: "wght" var(--main-title-weight, 700);
+  font-variation-settings: 'wght' var(--main-title-weight, 700);
 }
 
 .card__img__wrapper {
@@ -79,13 +79,16 @@
   opacity: 0.5;
   font-family: var(--accent-font-family);
   font-size: var(--accent-text-size);
-  text-shadow: -1px 0 var(--img-label-shadow-color),
-    0 1px var(--img-label-shadow-color), 1px 0 var(--img-label-shadow-color),
+  text-shadow:
+    -1px 0 var(--img-label-shadow-color),
+    0 1px var(--img-label-shadow-color),
+    1px 0 var(--img-label-shadow-color),
     0 -1px var(--img-label-shadow-color);
   mix-blend-mode: hard-light;
 }
 
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+
   .card__img__label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--img-label-shadow-color);
@@ -136,7 +139,7 @@
 .card__text {
   margin: 25px;
   font-size: var(--main-text-size);
-  font-variation-settings: "wght" var(--main-text-weight, 400);
+  font-variation-settings: 'wght' var(--main-text-weight, 400);
 }
 
 .card__text p:first-child {
@@ -171,7 +174,7 @@
 }
 
 .button:before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   background-color: var(--text-color, #000);
@@ -254,6 +257,7 @@
 }
 
 @media (width <= 375px) {
+
   .save__button {
     flex-direction: column;
   }
